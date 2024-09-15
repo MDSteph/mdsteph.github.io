@@ -1,54 +1,61 @@
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     font-size: 1.5vw;
-}
-
-ul{
-    margin: 0px ;
 }
 
 #logo {
     margin: 0px;
     padding: 10px;
-    font-family: "Fredoka One", sans-serif;
-    /* box-shadow: 5px 5px 45px 0px white; */
-    font-size: 4vw;
+    font-family: 'Playball','Brush Script MT', sans-serif;
+    font-size: 5vw;
 }
 
 /* This sytling is applied to the header directly under the body  */
 body > header {
-    background-color: orange;
+    background-color: rgba(255, 0, 140, 0.286);
     color: white;
     display: flex;
-    height: 12vh;
+    height: 20vh;
     align-items: center;
     justify-content: space-around;
 }
 
-body > header > nav > ul {
-    list-style: none;
-    text-decoration: none;
+#navbar-ul {
+    margin-right: 30px;
 }
 
-#nav-ul{
-    display: flex;
+#navbar-ul > li >a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav-ul {
+    list-style: none;
+    text-decoration: none;
+    font-weight: bolder;
 }
 
 #nav-ul > li {
-    padding: 20px;
+    padding: 10px;
+    font-size: 1.5svw;
 }
 
-.navbutton{
+
+.navbutton-header{
     color: white;
     text-decoration: none;
-    padding: 11px;
+    padding: 5px;
     border: 1px solid white;
     border-radius: 10%;
 }
+.navbutton{
+    text-decoration: none;
+    padding: 19px;
+}
 
 body > main article {
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 
@@ -57,8 +64,17 @@ body > main article {
     justify-content: space-around ;
 }
 
-#main-content > div {
-    width: 80%;
+#Page-title {
+    font-size: 3vw;
+}
+
+#article-header {
+    text-align: center;
+}
+
+
+#nav-bar {
+    background-color: rgba(128, 128, 128, 0.27);
 }
 
 form {
@@ -71,17 +87,20 @@ h2 {
 
 
 body > footer {
-    background-color: orange;
+    color: white;
+    background-color: rgba(255, 0, 166, 0.244);
     display: flex;
+    justify-content: space-evenly;
 }
 
-img{
-    border-radius: 50%;
+#article-footer{
+    text-align: center;
 }
 
 #footer-ul{
     display: flex;
     list-style: none;
+    font-weight: bolder;
 } 
 
 #footer-ul > div > li {
@@ -91,5 +110,10 @@ img{
 #footer-ul > div > li > a {
     text-decoration: none;
     color: white;
+    margin-right: 30px;
 }
 
+
+img {
+    margin: auto;
+}
