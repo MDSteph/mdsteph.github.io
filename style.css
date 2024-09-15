@@ -1,0 +1,95 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-size: 1.5vw;
+}
+
+ul{
+    margin: 0px ;
+}
+
+#logo {
+    margin: 0px;
+    padding: 10px;
+    font-family: "Fredoka One", sans-serif;
+    /* box-shadow: 5px 5px 45px 0px white; */
+    font-size: 4vw;
+}
+
+/* This sytling is applied to the header directly under the body  */
+body > header {
+    background-color: orange;
+    color: white;
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+#nav-ul{
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 20px;
+}
+
+.navbutton{
+    color: white;
+    text-decoration: none;
+    padding: 11px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+body > main article {
+    width: 70%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around ;
+}
+
+#main-content > div {
+    width: 80%;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+body > footer {
+    background-color: orange;
+    display: flex;
+}
+
+img{
+    border-radius: 50%;
+}
+
+#footer-ul{
+    display: flex;
+    list-style: none;
+} 
+
+#footer-ul > div > li {
+    margin-left: 12px;
+}
+
+#footer-ul > div > li > a {
+    text-decoration: none;
+    color: white;
+}
+
